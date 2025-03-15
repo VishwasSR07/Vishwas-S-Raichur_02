@@ -1,0 +1,2 @@
+num = int(input("Enter a number: "))
+print("Perfect Number" if num == sum(i for i in range(1, num) if num % i == 0) else "Not Perfect")
